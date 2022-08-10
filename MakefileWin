@@ -1,0 +1,32 @@
+# Makefile for RTGP lab lecture exercises - Win environment
+# author: Davide Gadia
+# Real-Time Graphics Programming - a.a. 2021/2022
+# Master degree in Computer Science
+# Universita' degli Studi di Milano
+
+# name of the file
+FILENAME = main
+
+# Visual Studio compiler
+CC = cl.exe
+
+# Include path
+IDIR = include/ /Iimgui/ /Isrc/surfaces/*.h
+
+# compiler flags:
+CCFLAGS  = /Od /Zi /EHsc /MT
+
+# linker flags:
+LFLAGS = /LIBPATH:libs glfw3.lib gdi32.lib user32.lib Shell32.lib
+
+SOURCES = include/glad/glad.c src/$(FILENAME).cpp src/surfaces/*.cpp imgui/*.cpp src/utils/*.cpp
+TARGET = $(FILENAME).exe
+
+.PHONY : all
+all:
+	$(CC) $(CCFLAGS) /I$(IDIR) $(SOURCES) /Fe:$(TARGET) /link $(LFLAGS)
+
+.PHONY : clean
+clean :
+	del $(TARGET)
+	del *.obj *.lib *.exp *.ilk *.pdb
