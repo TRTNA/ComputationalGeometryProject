@@ -1,4 +1,5 @@
-*.html linguist-detectable=false
-*.javascript linguist-detectable=false
-*.Objective-C linguist-detectable=false
-*.css linguist-detectable=false
+include/glm/doc/api/*.html linguist-detectable=false
+include/glm/doc/api/search/*.javascript linguist-detectable=false
+include/glm/doc/api/search/*.css linguist-detectable=false
+include/glm/doc/api/*.css linguist-detectable=false
+include/glm/doc/theme/*.css linguist-detectable=false
