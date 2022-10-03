@@ -21,6 +21,6 @@ The Mesh and Camera class are based on the ones presented in https://github.com/
 
 
 ## License
-This work is licensed under a Creative Commons Attribution 4.0 International License
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+This work is licensed under a Creative Commons Attribution 4.0 International License: https://creativecommons.org/licenses/by-nc-sa/4.0/ </br>
+![alt text](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-nc-sa.eu.svg)
 
