@@ -8,6 +8,10 @@ The application has been developed using C++ and OpenGL 4.1. It has been be comp
 
 The Mesh and Camera class are based on the ones presented in https://github.com/JoeyDeVries/LearnOpenGL/blob/master/includes/learnopengl/ 
 
+## How to use
+Use W and S to zoom in and out and A/D to rotate around the surface. By pressing Q wireframe mode is toggled. 
+The GUI has some command to change the appearence of the surface and to modify the polynomials' coefficients.
+
 ## Screenshots
 
 ![alt text](https://github.com/TRTNA/ComputationalGeometryProject/blob/eaa258870b8b35cf69ed5eddb5f515a9aa7724ac/screenshots/Startup.png?raw=true)
